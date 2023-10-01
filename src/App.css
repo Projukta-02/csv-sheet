@@ -1,0 +1,97 @@
+/* App.css */
+
+.App {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    margin: 40px auto;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+input[type="file"], input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #d1d1d1;
+    box-sizing: border-box;
+}
+
+.label-checkbox {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.tableContainer {
+    width: 100%;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #d1d1d1;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:not(:last-of-type) {
+    margin-right: 10px;
+}
+
+.exportButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.exportButton:hover {
+    background-color: #45a049;
+}
+
+.feedback {
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+  }
